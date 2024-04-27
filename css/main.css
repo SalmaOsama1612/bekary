@@ -1,0 +1,351 @@
+*{
+    margin: 0;
+}
+.clr{
+    clear: both;
+}
+
+.navbar img{
+    width: 250px;
+    float: left;
+    margin-left: 50px;
+
+}
+.navbar ul{
+    float: right;
+    margin-right: 60px;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: 400;
+
+}
+.navbar ul a{
+    color: #fff;
+    text-decoration: none;
+}
+#home{
+    background-image: url("../images/drew-coffman-1872.jpg");
+  background-size: 100% 100%;
+    height: 100vh;
+
+}
+#home .caption{
+    text-align: center;
+    color: #fff;
+    padding: 100px 0px;
+
+}
+#home .caption h1{
+    font-size: 76px;
+    font-weight: 400px;
+
+}
+#home .caption h3{
+    padding: 20px;
+}
+#home .caption p{
+    padding: 10px 0px 20px;
+
+}
+#home .caption .btn1 ,#home .caption .btn2{
+padding:15px 28px;
+border: none;
+border-radius: 5px;
+color: #fff;
+margin-top: 20px;
+
+}
+#home .caption .btn1{
+    background-color:#8E7754;
+    margin-right: 10px;
+}
+#home .caption .btn2{
+    background-color: transparent;
+    border: 1px solid #fff;
+    
+}
+/* =====================================end of home====================== */
+#about{
+    margin-top: 15px;
+width: 100%;
+}
+#about .about-img {
+    width: 50%;
+    float: left;
+   
+}
+#about .about-img img{
+    width: 100%;
+}
+#about .about-info{
+    width: 50%;
+    float: left;
+    text-align: center;
+    
+
+}
+#about .about-img{
+    width: 40%;
+   padding:50px;
+    float: left;
+
+}
+#about .about-img img{
+    width: 100%;
+}
+#about .about-info{
+    width: 50%;
+   text-align: left;
+ 
+    float: left;
+    padding: 90px 15px;
+    line-height: 32px;
+    
+
+}
+
+#about .about-info h2{
+    padding: 20px;
+    font-size: 40px;
+
+
+
+}
+#about .about-info p{
+    padding: 20px;
+    line-height: 32px;
+    font-size: 17px;
+
+}
+#about .about-info .list-img li img{
+    width: 50px;
+    border: 1px solid #8E7754;
+    border-radius: 50%;
+}
+#about .about-info .list-img li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 400;
+}
+#about .about-info .list-img li h3{
+    display: inline-block;
+    margin: 15px 20px 25px 15px;
+}
+/* =======================end of about=========================================  */
+
+#bake{
+    padding-inline: 60px;
+    background-color: #F8F8F8;
+}
+#bake .location {
+   
+    width: 50%;
+    float:left;
+    margin-top: 80px;
+    padding:0 15px;
+}
+#bake .location h2{
+    line-height:45px ;
+    font-size: 32px;
+    font-weight: 400;
+}
+#bake .location p{
+    line-height:32px ;
+    font-size: 17px;
+    font-weight: 400;
+}
+#bake .location-img{
+ 
+    width: 40%;
+    float: left;
+}
+#bake .location-img img{
+    width: 100%;
+    padding: 0 60px;
+}
+/* =============================================end of bake section============================= */
+#gallery{
+ 
+    height: 100vh;
+    margin-block:60px;
+
+}
+
+#gallery .title{
+    text-align: center;
+    margin: auto;
+    line-height: 40px;
+   
+
+
+}
+#gallery .title h2{
+    font-size: 32px;
+} 
+#gallery .title p{
+    padding-block: 25px;
+}
+.card{
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+.card h3{
+    font-size: 25px;
+   
+    margin-top: 15px;
+
+}
+.card p{
+padding: 20px;
+line-height: 25px;
+}
+#gallery .card img{
+    width: 80%;
+}
+/* =====================================end of gallery=========================== */
+#contact{
+    background-color:#F8F8F8;
+    padding: 30px;
+}
+#contact .contact-us{
+    width: 50%;
+  
+    float: left;
+    margin: auto;
+}
+#contact .contact-us ul li img{
+    width: 50px;
+    border-radius: 50%;
+    background-color: #8E7754;
+
+    
+}
+#contact .contact-us ul li{
+    list-style: none;
+    padding: 10px;
+    
+}
+#contact .contact-us ul p{
+    margin: 15px ;
+    display: inline-block;
+    font-size: 17px;
+    line-height: 10px;
+}
+#contact .contact-us p{
+    line-height: 15px;
+    padding: 20px 0;
+
+}
+#contact .contact-us h2{
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+#contact .map{
+    width: 40%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    
+}
+/* ========================end of contact section======================================= */
+#info{
+    background-color: #403D38;
+    color: #969696;
+    padding: 30px;
+}
+#info .p1 ,#info .p2,#info .p3,#info .p4{
+    width: 25%;
+    float: left;
+  
+}
+
+#info .p1 h3 ,#info .p2 h3 ,#info .p3 h3 ,#info .p4 h3{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #fff;
+    
+
+}
+#info .p1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+
+#info .p2 li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    border-bottom: 1px solid #46443F;
+}
+#info .p3 li{
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    border-bottom: 1px solid #46443F;
+}
+
+#info .p4 {
+background-image: url('../images/contact-details-map.png');
+margin:auto;
+opacity: 0.5;
+}
+#info .p4 li img{
+    width: 30px;
+}
+#info .p4 li {
+    
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 35px;
+    border-bottom: 1px solid #46443F;
+}
+
+/* ===========================end of info======================================== */
+#footer{
+    background-color: #353330;
+    color: #969696;
+    text-align: center;
+    padding: 5px;
+}
+#footer .media ul li img{
+    width: 40px;
+    border-radius: 50%;
+    background-color: #46443F;
+}
+#footer .media ul li{
+    list-style: none;
+    padding: 5px;
+    display: inline;
+}
+#footer p{
+    margin: 10px;
+}
+.test{
+    width: 60px;
+    height: 100px;
+    background-color: rgb(122, 101, 64);
+    position:fixed;
+    top: 50%;
+    right:0;
+}
+
+/* ===============================THE END=================================== */
+
+
+
+
